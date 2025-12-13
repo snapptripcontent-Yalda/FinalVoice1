@@ -67,22 +67,9 @@
     <h2>🎧 اول سرنخ رو گوش کنین</h2>
 
     <!-- فایل صوتی مستقیم از گوگل درایو -->
-  <button class="btn" onclick="playVoice()">پخش سرنخ صوتی</button>
-
-<audio id="voicePlayer" playsinline preload="none">
-    <source src="https://www.dropbox.com/scl/fi/emlqs8y6k0fo1scp43mtu/voice1.mp3?dl=1" type="audio/mpeg">
+   <audio controls>
+    <source src="https://www.dropbox.com/scl/fi/emlqs8y6k0fo1scp43mtu/voice1.mp3?rlkey=d356i53uaqq95modp7o1l2i6x&dl=1" type="audio/mpeg">
 </audio>
-
-<script>
-function playVoice() {
-    const audio = document.getElementById('voicePlayer');
-    audio.play().catch(err => {
-        console.log("Audio play error:", err);
-        alert("لطفاً از مرورگر Chrome استفاده کنید");
-    });
-}
-</script>
-
 
 
     <h3 style="margin-top: 20px; font-weight: 600;">از مرورگر کروم استفاده کنین!</h3>
